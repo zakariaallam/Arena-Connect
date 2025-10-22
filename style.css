@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(6, 0, 122, 0.612);
+    background-color: rgba(6, 0, 122, 0.235);
     padding: 12px 20px;
 }
 
@@ -30,7 +30,7 @@ nav i{
 
 }
 
-.logo::first-letter , .hero h1::first-letter , .login-page h2::first-letter{
+.logo::first-letter , .hero h1::first-letter , h2::first-letter{
     color: #B1FF00;
 }
 
@@ -93,20 +93,21 @@ button{
 }
 
 /* ----------------- Login --------------------- */
-.login-page{
+.login-page , .signUp-page{
     display: grid;
     justify-items: center;
     gap: 32px;
     width: 90%;
     color: #f6f6f8;
     margin: 20px auto;
+    padding: 20px 0;
     border: 2px solid black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     text-align: center;
     border-radius: 17px;
 }
 
-.login-page form{
+.login-page form , .signUp-page form{
     width: 80%;
     text-align: start;
     color: white;
@@ -116,24 +117,25 @@ button{
 }
 
 .login-page form input{
-    padding: 17px 0px;
+    padding: 17px 8px;
     border: none;
     border-radius: 8px;
 
 }
 
-.login-page h2{
+.login-page h2 , .signUp-page h2{
    font-size: 40px;
    margin-top: 20px;
 }
 
-.login-page button{
+.login-page button , .signUp-page button{
     width: 80%;
     margin: 0;
 }
 
-.login-page p{
+.login-page a , .signUp-page a{
     color: #2756e3;
+    text-decoration: none;
 }
 
 .or{
@@ -149,4 +151,17 @@ button{
 }
 .btn-creat{
    margin-bottom: 20px;
+   background: none;
+   border: 1px solid #B1FF00;
+}
+
+.btn-creat a{
+    color: #B1FF00;
+}
+
+/* --------------- sing up ------------------ */
+.signUp-page form input {
+    padding: 12px 8px;
+    border: none;
+    border-radius: 8px;
 }
