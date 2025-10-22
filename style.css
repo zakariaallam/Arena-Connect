@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #050319;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.cover_profil{
+    width: 100%;
+    height: 221px;
+    background: rgba(96, 96, 96,0.38);
+    border-radius: 0 0 30px 30px;
+    border-bottom: 1px solid #B1FF00;
+    position: relative;
+}
+.back_cover{
+    background: #050319;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.add_cover i{
+    font-size: 30px;
+    color: #B1FF00;
+    background: none;
+}
+.pic_profil img{
+    width: 128px;
+    border-radius: 50%;
+    border: solid 2px #B1FF00;
+    box-shadow: 0 0 10px #B1FF00;
+}
+.name{
+    font-weight: bold;
+    font-size: 24.2px;
+    color: white;
+}
+.edit_btn{
+    width: 267px;
+    height: 48px;
+    background: none;
+    border-radius: 12px;
+    border: 2px solid #B1FF00;
+    cursor: pointer;
+}
+.edit_btn i{
+    font-size: 20px;
+    color: #B1FF00;
+    background: none;
+}
+.edit_btn label{
+    font-size: 19px;
+    font-weight: bold;
+    color: #B1FF00;
+    background: none;
+    text-align: center;
+}
+/* .pic-name-edit_btn{
+    display: grid;
+    grid-template-rows: ;
+} */
+.level{
+    font-weight: bold;
+    font-size: 19px;
+    color: #B1FF00;
+}
+.playing{
+    font-size: 14.2px;
+    font-weight: bold;
+    color: white;
+}
+.social_media i{
+    font-size: 40px;
+    color: #B1FF00;
+}
+.name_game{
+    width: 182px;
+    height: 36px;
+    background: rgba(6, 0, 122, 0.25);
+    border-radius: 10px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 14.2px;
+    color: white;
+}
+.title_fav_game{
+    font-size: 14.2px;
+    font-weight: bold;
+    color: white; 
+    line-height: 32px;   
+}
+.fav_games{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 46px;
+}
+.fav_games  img{
+    width: 100px;
+    height: 125px;
+    border: solid 2px #B1FF00;
+    border-radius: 10px;
+}
