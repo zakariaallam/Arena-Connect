@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020114;
+    color: white;
+}
+
+/* ------------------- header ------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(6, 0, 122, 0.612);
+    padding: 12px 20px;
+}
+
+nav i{
+    font-size: 30px;
+    color: #B1FF00;
+}
+
+.logo{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.logo::first-letter , .hero h1::first-letter , .login-page h2::first-letter{
+    color: #B1FF00;
+}
+
+.logo span{
+    margin-left:30px ;
+}
+
+/* ----------------------- hero --------------------- */
+
+.hero{
+    background-image: url(assetes/image/cover_2.jpg);
+    background-size: cover;
+    background-position: 40rem;
+}
+
+.content{
+    display: inline-block;
+    margin: 3rem 30px;
+
+}
+
+.hero h1{
+    font-size: 40px;
+    
+}
+
+button{
+    padding: 15px 3rem;
+    background-color: #B1FF00;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+
+.hero div {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero small{
+    font-size: 13px;
+    color: rgb(167, 162, 162);
+}
+
+.line{
+    position: absolute;
+    left: 10px;
+    bottom: 10rem;
+    width: 1px;
+    height: 180px;
+    background-color: rgb(227, 223, 223);
+}
+
+.fa-solid{
+    margin-left: 15px;
+}
+
+/* ----------------- Login --------------------- */
+.login-page{
+    display: grid;
+    justify-items: center;
+    gap: 32px;
+    width: 90%;
+    color: #f6f6f8;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 17px;
+}
+
+.login-page form{
+    width: 80%;
+    text-align: start;
+    color: white;
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.login-page form input{
+    padding: 17px 0px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.login-page h2{
+   font-size: 40px;
+   margin-top: 20px;
+}
+
+.login-page button{
+    width: 80%;
+    margin: 0;
+}
+
+.login-page p{
+    color: #2756e3;
+}
