@@ -135,3 +135,18 @@ button{
 .login-page p{
     color: #2756e3;
 }
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.line-or{
+    width: 160px;
+    height: 1px;
+    background-color: white;
+}
+.btn-creat{
+   margin-bottom: 20px;
+}
