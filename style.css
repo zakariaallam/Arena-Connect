@@ -38,6 +38,10 @@ nav i{
     margin-left:30px ;
 }
 
+.list-header{
+    display: none;
+}
+
 /* ----------------------- hero --------------------- */
 
 .hero{
@@ -229,4 +233,22 @@ button{
 .hero h1{
     font-size: 60px;
 }
+/* -------------------- header ------------- */
+
+i{
+    display: none !important;
+}
+.list-header{
+    width: 40%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+}
+
+.list-header button{
+    padding: 8px 12px;
+    margin: 0;;
+}
+
 }
